@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+feedparser = "*"
+requests = "*"
+beautifulsoup4 = "*"
+notebook = "*"
+google-generativeai = "*"
+google-adk = "*"
+litellm = "*"
+python-dotenv = "*"
+numpy = "*"
+pandas = "*"
+google-genai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
